@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: web-service-reactive-r2dbc
+
+server:
+  port: 8090
+  
+logging:
+  level:
+    org.springframework.data.r2dbc: debug 
+  
+datasource:
+  host: localhost
+  port: 5432
+  database: db_UInv
+  username: postgres
+  password: 1234
